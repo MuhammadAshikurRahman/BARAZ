@@ -1,0 +1,71 @@
+*{  /* global */
+    font-family: "Poppins", sans-serif; 
+}
+
+
+/* Navbar */
+.navbar ul li {
+    font-size: 12px;
+    padding: 0 7px;
+}
+
+.navbar{
+    background-color: #ececec !important ;
+}
+
+.Search-bar{
+    background-color: #f5f5f5;
+    padding: 13 19px;
+    border: none;
+    outline: none;  /* after click need to remove outline */
+    width: 50%;          /* 50% width from screen  */ 
+    margin-left: 20px;   /* **** left margin  */ 
+    border-radius: 2px;
+}
+
+.search-container button {
+
+    outline: none;
+    border: none ;
+    color: hsl(0, 100%, 99%);   /* button text color  */  
+    background-color: #f57244;
+    margin-left: -5px;
+    border-radius: 2px;
+}
+
+.top-banner{
+    background-color: #f7f7f7;
+}
+
+.product-title{
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.product-price{
+    color: #f57244;
+    font-size: 18px;
+}
+
+.discount-price{
+    font-size: 12px;  /* all text of h6 tag */
+}
+
+.flashsale-container img
+,.darazmall-container img{
+    height: 200px;
+
+}
+
+.product:hover{
+    background-color: #fff;
+    
+}
+
+.footer{
+    background-color: #5e654c;
+}
+.footer p{
+    font-size: 20px;
+    color: #ffffff;
+}
